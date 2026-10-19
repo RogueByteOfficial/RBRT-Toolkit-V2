@@ -1,2 +1,0 @@
-[console_scripts]
-rbrt = rbrt.main:main
