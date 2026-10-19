@@ -1,6 +1,6 @@
 # RogueByte RBRT Toolkit V2
 
-> **Cross-platform hardware diagnostics, serial console logging, firmware inspection, binary comparison, and ELF analysis toolkit.**
+> **Cross-platform PS4/PS5 hardware diagnostics, UART serial console logging, firmware inspection, binary comparison, and ELF analysis toolkit.**
 
 [![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](pyproject.toml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
