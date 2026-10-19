@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "updated_at": "2026-10-19T20:38:49.267898",
+  "dumps": [
+    {
+      "dump_id": "dump_20261019_203849_firmware_a",
+      "file_path": "/tmp/rbrt_test_cli_5umszztj/firmware_a.bin",
+      "file_name": "firmware_a.bin",
+      "size_bytes": 1024,
+      "sha256": "785b0751fc2c53dc14a4ce3d800e69ef9ce1009eb327ccf458afe09c242c26c9",
+      "imported_at": "2026-10-19T20:38:49.267839",
+      "device_model": "CUH-1215A",
+      "board_revision": null,
+      "source_notes": null,
+      "entropy_estimate": 8.0,
+      "is_repetitive": false,
+      "repetitive_byte": null
+    }
+  ]
+}

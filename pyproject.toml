@@ -1,0 +1,71 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rbrt"
+version = "2.0.0"
+description = "Cross-platform hardware diagnostics, serial console logging, firmware inspection, binary comparison, and ELF analysis toolkit."
+readme = "README.md"
+authors = [
+    { name = "RogueByte", email = "contact@roguebyte.online" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.10"
+keywords = ["hardware", "diagnostics", "uart", "serial", "firmware", "elf", "binary-diff", "forensics", "ps4", "ps5"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: System :: Hardware",
+    "Topic :: Utilities"
+]
+dependencies = [
+    # Core relies on Python standard library by design for zero-dependency portability
+]
+
+[project.optional-dependencies]
+rich = ["rich>=13.0.0"]
+serial = ["pyserial>=3.5"]
+elf = ["pyelftools>=0.29"]
+full = [
+    "rich>=13.0.0",
+    "pyserial>=3.5",
+    "pyelftools>=0.29"
+]
+dev = [
+    "pytest>=7.4.0",
+    "ruff>=0.3.0",
+    "mypy>=1.9.0",
+    "rich>=13.0.0",
+    "pyserial>=3.5",
+    "pyelftools>=0.29"
+]
+
+[project.urls]
+Homepage = "https://roguebyte.online"
+Documentation = "https://github.com/RogueByteOfficial/RBRT-Toolkit-V2"
+Repository = "https://github.com/RogueByteOfficial/RBRT-Toolkit-V2"
+Sponsor = "https://ko-fi.com/roguebyte"
+
+[project.scripts]
+rbrt = "rbrt.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
