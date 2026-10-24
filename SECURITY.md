@@ -18,6 +18,8 @@
 If you identify a security issue, vulnerability, or parser crash issue in RBRT Toolkit V2, please notify our team directly:
 
 - **Security Contact**: `contact@roguebyte.online`
+- **help**: help@roguebyte.online
+- **business Contact**: business@roguebyte.online`
 - **PGP/Key Verification**: Available on request via https://roguebyte.online
 - **Response SLA**: Initial triage within 48 hours.
 
