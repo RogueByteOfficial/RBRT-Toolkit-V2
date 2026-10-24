@@ -21,6 +21,8 @@ Unlike tools that rely on unverified claims or cloud APIs, **RBRT Toolkit V2** i
 - **Official Website**: [https://roguebyte.online](https://roguebyte.online)
 - **Ko-fi Sponsorship**: [https://ko-fi.com/roguebyte](https://ko-fi.com/roguebyte)
 - **Security & Inquiries**: `contact@roguebyte.online`
+- **Marketing Manager** : Adel Mouahdi (عادل مواحذي)
+- **Contacts** : contact@roguebyte.online.com
 
 ---
 
